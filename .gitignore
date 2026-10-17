@@ -1,0 +1,47 @@
+# Git
+.git-credentials
+.gitconfig
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Entornos virtuales
+.venv/
+venv/
+.env
+env/
+ENV/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Backups
+*.bak
+
+# Logs
+*.log
+
+# Archivos temporales de releases
+*.zip
+*.tar.gz
+!releases/*.zip
+
+# Datos locales
+tree.txt
