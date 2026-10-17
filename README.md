@@ -67,7 +67,7 @@ próximas versiones podrás instalar, actualizar y eliminar add-ons desde la
 propia aplicación o desde el panel web.
 
 **Estado actual**: los add-ons gratuitos vienen incluidos en Hiapp. Esta
-separación en repositorio se está preparando para la versión `0.0.4`.
+separación en repositorio se está preparando para la versión `0.1.0`.
 
 ---
 

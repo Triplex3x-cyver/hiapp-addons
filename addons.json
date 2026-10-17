@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2026-10-15",
+    "updated": "2026-10-17",
     "addons": [
         {
             "name": "ppsspp",
@@ -8,10 +8,10 @@
             "version": "0.0.3",
             "free": true,
             "description": "Servidor de streaming HTTP para PPSSPP con soporte de rangos.",
-            "min_hiapp_version": "0.0.4",
+            "min_hiapp_version": "0.1.0",
             "dependencies": [],
             "download_url": "https://github.com/Triplex3x-cyver/hiapp-addons/releases/download/ppsspp-0.0.3/ppsspp-0.0.3.zip",
-            "sha256": "PENDIENTE",
+            "sha256": "f8ee802e3c490cbe7a365670d84882b4173f8dbd86dbc8f6968ec3af9c2ecbf6",
             "detail_url": "https://github.com/Triplex3x-cyver/hiapp-addons/blob/main/ppsspp/README.md"
         }
     ]

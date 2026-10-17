@@ -53,7 +53,7 @@ Por defecto, Hiapp busca los juegos en el **HOME** de tu equipo `~/PSP/`. Puedes
 hiapp-config set games_dir /ruta/a/tus/ISOs
 ```
 
-Formatos soportados: **`.iso`** normal y **`.cso`** comprimido.
+Formatos soportados: **`.iso`** (normal) y **`.cso`** (comprimido).
 
 ### Configurar PPSSPP
 
@@ -110,7 +110,7 @@ un problema del add-on. Ignorar.
 ### Error 404 al seleccionar un juego
 
 Verifica que:
-- Su extensión es `.iso` o `.cso`, son las admitidas.
+- Su extensión es `.iso` o `.cso`, — son las admitidas.
 
 ### El juego se ve entrecortado o lento
 
@@ -125,7 +125,8 @@ Mientras tanto, verifica:
 
 > [!WARNING]
 > Si tienes cortafuegos o VPN activo, Hiapp puede darte una ip inútil para hotspot,
-> como `10.0.8.1` o `127.0.0.1`, busca y prueba hasta lograrlo, si has llegado hasta aquí, es porque eres inteligente, tú puedes hacerlo.
+> como `10.0.8.1` o `127.0.0.1`, busca y prueba hasta lograrlo —
+> si has llegado hasta aquí, es porque eres inteligente, tú puedes hacerlo.
 
 ---
 

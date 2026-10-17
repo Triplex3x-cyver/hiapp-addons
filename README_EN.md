@@ -67,7 +67,7 @@ upcoming versions you will be able to install, update, and remove
 add-ons from the application itself or from the web panel.
 
 **Current status**: free add-ons come bundled with Hiapp. This
-repository separation is being prepared for version `0.0.4`.
+repository separation is being prepared for version `0.1.0`.
 
 ---
 
