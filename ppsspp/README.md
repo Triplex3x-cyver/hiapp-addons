@@ -86,6 +86,33 @@ En base a la versión 1.20.4
 - **Endpoint `/game/<filename>`**: sirve el archivo con soporte `206 Partial Content`.
 - **Codificación**: los nombres con espacios se codifican como `%20` en el catálogo.
 - **Seguridad**: protección contra *path traversal* en el endpoint de streaming.
+---
+
+## 🎮 Multijugador (Ad-hoc)
+
+El add-on PPSSPP sirve **exclusivamente para el streaming de discos** (leer las ISOs). 
+Para jugar en red (Ad-hoc), PPSSPP utiliza su propio sistema interno que es independiente de Hiapp.
+
+### Configuración probada (LAN)
+
+Hemos probado con éxito el juego en red con **PPSSPP 1.8** y **PPSSPP 1.20.4** conectados al mismo hotspot Wi-Fi, usando Hiapp para el streaming.
+
+**En el dispositivo Host (ej. PPSSPP 1.20.4):**
+1. Ve a **Ajustes → Redes**.
+2. Activa **"Habilitar redes/WLAN"**.
+3. Activa **"Habilitar servidor Ad-hoc PRO integrado"**.
+4. En "Dirección de servidor Ad-hoc", selecciona la **IP local del propio dispositivo** (aparece en la lista de "Direcciones de red local").
+5. Configura el **"Port Offset"** en `10000`.
+
+**En el dispositivo Cliente (ej. PPSSPP 1.8):**
+1. Ve a **Ajustes → Redes**.
+2. Activa **"Habilitar redes/WLAN"**.
+3. **Desactiva** el servidor Ad-hoc integrado (solo el PPSSPP que funciona como host lo lleva).
+4. En "Dirección de servidor Ad-hoc", escribe la **IP del dispositivo Host** (ej. `192.168.43.163`).
+5. Configura "Variar puerto de red" (Port Offset) en `10000`.
+
+> [!TIP]
+> **Importante**: Para que PPSSPP guarde los cambios de red, **siempre cierra la aplicación desde el menú principal ("Salir")** y no solo deslizando la app desde las recientes de Android. De lo contrario, los ajustes pueden perderse al reiniciar.
 
 ---
 
